@@ -1,0 +1,13 @@
+resolver: lts-9.5
+
+packages:
+  - '.'
+  - location:
+      git: https://github.com/rootmos/haskeline.git
+      commit: 603ca24e368259c158e71fcd49b0c512c5f57cf3
+
+extra-deps: []
+
+flags: {}
+
+extra-package-dbs: []
